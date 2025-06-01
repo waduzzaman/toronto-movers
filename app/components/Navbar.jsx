@@ -24,10 +24,10 @@ export default function Navbar() {
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
               <Image
-                src="/logo.png"
+                src="/logo.jpeg"
                 alt="Toronto Movers Logo"
-                width={150}
-                height={50}
+                width={80}
+                height={20}
                 priority
               />
             </Link>

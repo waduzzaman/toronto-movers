@@ -2,7 +2,7 @@
 import { Montserrat, Open_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer.jsxFooter";
+import Footer from "./components/Footer";
 
 
 // Configure Google Fonts

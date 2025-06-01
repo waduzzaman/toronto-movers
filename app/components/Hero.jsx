@@ -18,7 +18,7 @@ export default function Hero() {
         priority
       />
       {/* Corrected Image usage for Next.js 13+ with fill */}
-      {/* <Image
+      <Image
         src="/moving-truck-toronto.jpg"
         alt="Moving truck in Toronto with city skyline"
         fill // This makes the image fill its parent
@@ -26,7 +26,7 @@ export default function Hero() {
         quality={80}
         className="opacity-40"
         priority
-      /> */}
+      />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold font-heading mb-6">

@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <Link href="/" className="inline-block mb-4">
-              <Image src="/logo-white.png" alt="Toronto Movers Logo" width={150} height={50} />
+              <Image src="/logo.jpeg" alt="Toronto Movers Logo" width={150} height={50} />
               {/* Or text: <span className="text-2xl font-heading font-bold text-white">Toronto Movers</span> */}
             </Link>
             <p className="text-sm leading-relaxed">
