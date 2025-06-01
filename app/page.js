@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import Services from "./components/Services";
 import WhyChooseUs from "./components/WhyChooseUs";
 import CallToAction from "./components/CallToAction";
-// import Testimonials from "./components/Testimonials";
+import Testimonials from "./components/Testimonials";
 
 // SEO for specific page
 export const metadata = {
@@ -17,7 +17,7 @@ export default function HomePage() {
       <Hero />
       <Services />
       <WhyChooseUs />
-      {/* <Testimonials /> */}
+      <Testimonials />
       <CallToAction />
     </>
   );

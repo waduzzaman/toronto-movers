@@ -1,6 +1,7 @@
 // app/components/Hero.jsx
 import Link from "next/link";
 import Image from "next/image";
+import GetQuoteButton from './GetQuoteButton'; 
 
 export default function Hero() {
   return (
@@ -35,16 +36,12 @@ export default function Hero() {
         <p className="text-lg sm:text-xl md:text-2xl text-gray-200 mb-10 max-w-3xl mx-auto">
           Your trusted, reliable, and affordable movers for residential and commercial relocations across the GTA.
         </p>
-        <div className="space-x-4">
-          <Link
-            href="/quote"
-            className="px-8 py-3 bg-primary text-white text-lg font-semibold rounded-md hover:bg-primary-dark transition-colors duration-200"
-          >
-            Get a Free Quote
-          </Link>
+        <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+          {/* Use the GetQuoteButton component */}
+          <GetQuoteButton size="large" />
           <Link
             href="/#services"
-            className="px-8 py-3 bg-transparent border-2 border-white text-white text-lg font-semibold rounded-md hover:bg-white hover:text-primary-dark transition-colors duration-200"
+            className="px-8 py-4 bg-transparent border-2 border-white text-white text-lg font-semibold rounded-md hover:bg-white hover:text-primary-dark transition-colors duration-200"
           >
             Our Services
           </Link>
