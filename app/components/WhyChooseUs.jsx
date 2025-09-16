@@ -38,7 +38,7 @@ export default function WhyChooseUs() {
           {benefits.map((benefit) => (
             <div key={benefit.title} className="flex items-start space-x-4">
               <div className="flex-shrink-0">
-                <benefit.icon className="h-10 w-10 text-primary" aria-hidden="true" />
+                <benefit.icon className="h-10 w-10 text-slate-800" aria-hidden="true" />
               </div>
               <div>
                 <h3 className="text-xl font-semibold font-heading text-gray-800 mb-1">{benefit.title}</h3>

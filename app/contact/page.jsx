@@ -84,7 +84,7 @@ export default function ContactPage() {
             <div>
               <h2 className="text-2xl font-semibold font-heading text-gray-800 mb-3">Contact Directly</h2>
               <div className="flex items-start space-x-3">
-                <MapPinIcon className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                <MapPinIcon className="h-6 w-6 text-slate-800 flex-shrink-0 mt-1" />
                 <address className="not-italic text-gray-700">
                   123 Moving Lane<br />
                   Toronto, ON, M1A 1A1
@@ -93,13 +93,13 @@ export default function ContactPage() {
             </div>
             <div>
               <div className="flex items-start space-x-3 mt-4">
-                <PhoneIcon className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                <PhoneIcon className="h-6 w-6 text-slate-800 flex-shrink-0 mt-1" />
                 <a href="tel:+14165551234" className="text-gray-700 hover:text-primary">(416) 555-1234</a>
               </div>
             </div>
             <div>
               <div className="flex items-start space-x-3 mt-4">
-                <EnvelopeIcon className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                <EnvelopeIcon className="h-6 w-6 text-slate-800 flex-shrink-0 mt-1" />
                 <a href="mailto:info@torontomovers.ca" className="text-gray-700 hover:text-primary">info@torontomovers.ca</a>
               </div>
             </div>
@@ -204,7 +204,7 @@ export default function ContactPage() {
           </div>
         </div>
 
-        {/* Optional: Map Section
+        Optional: Map Section
         <div className="mt-16">
           <h2 className="text-2xl font-semibold font-heading text-gray-800 mb-6 text-center">Find Us Here</h2>
           <div className="aspect-[16/9] w-full bg-gray-300 rounded-lg shadow-md">
@@ -222,7 +222,7 @@ export default function ContactPage() {
             ></iframe>
           </div>
         </div>
-        */}
+       
       </div>
     </div>
   );
